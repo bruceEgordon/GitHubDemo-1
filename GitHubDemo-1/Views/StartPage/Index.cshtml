@@ -1,0 +1,4 @@
+@using GitHubDemo_1
+@model PageViewModel<GitHubDemo_1.Models.Pages.StartPage>
+
+@Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { CssClass = "row equal-height", tag = Global.ContentAreaTags.FullWidth })
